@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', path='/css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
+  <title>{{ title }}</title>
+</head>
+<body>
+  <header>
+    <button type="button" class="price_button">Курс криптовалют</button>
+    <ul class="nav">
+      <li class="navbar-item">
+        <a class="navbar-link" aria-current="page" href="/">Введение</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link" aria-current="page" href="/blockchain">Блокчейн</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link" aria-current="page" href="/smart-contracts">Смарт - контракты</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link" aria-current="page" href="/mining">Майнинг</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link" aria-current="page" href="/regulation">Регулирование</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link" aria-current="page" href="/influence">Влияние на экономику</a>
+      </li>
+    </ul>
+  </header>
+  <main>
+    {% block main %}
+    {% endblock %}
+  </main>
+  <footer></footer>
+</body>
+</html>

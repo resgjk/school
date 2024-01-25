@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "geist";
+    src: url("../fonts/Geist-Regular.otf");
+}
+
+@font-face {
+    font-family: "geist_light";
+    src: url("../fonts/Geist-Light.otf");
+}
+
+body {
+    background-color: #171B23;
+}
+
+header {
+    width: 100%;
+    height: 91px;
+    border-bottom: 1px solid white;
+    padding-top: 30px;
+    padding-left: 490px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-link {
+    color: white;
+    font-size: 17px;
+    margin: 25px;
+    font-weight: 600;
+}
+
+.navbar-link:hover {
+    color: #356CFB;
+
+}
+
+.active {
+    color: #A170D9;
+}
+
+.price_button {
+    height: 50px;
+    background-color: #356CFB;
+    border: 1px solid #356CFB;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+    margin-right: 130px;
+    margin-top: -10px;
+}
+
+.price_button:hover {
+    background-color: white;
+    color: #356CFB;
+    border: 1px solid white;
+}
+
+.inner_img_div {
+    border-bottom: 1px solid white;
+    background-image: url("../img/back.png");
+    width: 100%;
+    height: 794px;
+    background-size: cover;
+}
+
+.inner_img_div h1 {
+    position: absolute;
+    font-size: 55px;
+    color: white;
+    font-family: "geist";
+    margin-left: 670px;
+    margin-top: 125px;
+}
+
+.big_info {
+    position: absolute;
+    color: white;
+    width: 800px;
+    font-family: "geist";
+    margin-top: 300px;
+    margin-left: 1050px;
+    line-height: 30px;
+    font-size: 19px;
+}
+
+.small_info {
+    position: absolute;
+    color: white;
+    width: 800px;
+    font-family: "geist_light";
+    margin-top: 450px;
+    margin-left: 1050px;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.left_info {
+    width: 50%;
+    height: 794px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.right_image {
+    position: absolute;
+    margin-top: -794px;
+    height: 794px;
+    width: 50%;
+    margin-left: 50%;
+    border-bottom: 1px solid white;
+    background-image: url("../img/monets.png");
+}
+
+.big_info_2 {
+    width: 740px;
+    position: absolute;
+    color: white;
+    font-family: "geist";
+    font-size: 23px;
+    margin-left: 100px;
+    margin-top: 200px;
+    line-height: 45px;
+}
+
+.small_info_2 {
+    position: absolute;
+    color: white;
+    width: 740px;
+    font-family: "geist_light";
+    margin-top: 450px;
+    margin-left: 100px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.over_line {
+    position: absolute;
+    border-bottom: 1px solid white;
+    width: 100px;
+    margin-bottom: 500px;
+}
