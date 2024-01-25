@@ -17,7 +17,7 @@ header {
     height: 91px;
     border-bottom: 1px solid white;
     padding-top: 30px;
-    padding-left: 490px;
+    padding-left: 10%;
 }
 
 a {
@@ -50,7 +50,7 @@ a {
     padding-left: 20px;
     padding-right: 20px;
     float: right;
-    margin-right: 130px;
+    margin-right: 5%;
     margin-top: -10px;
 }
 
@@ -63,9 +63,9 @@ a {
 .inner_img_div {
     border-bottom: 1px solid white;
     background-image: url("../img/back.png");
+    background-size: 100%;
     width: 100%;
-    height: 794px;
-    background-size: cover;
+    height: 77vh;
 }
 
 .inner_img_div h1 {
@@ -73,69 +73,71 @@ a {
     font-size: 55px;
     color: white;
     font-family: "geist";
-    margin-left: 670px;
-    margin-top: 125px;
+    margin-left: 32%;
+    margin-top: 5%;
 }
 
 .big_info {
     position: absolute;
     color: white;
-    width: 800px;
+    width: 45%;
     font-family: "geist";
-    margin-top: 300px;
-    margin-left: 1050px;
+    margin-top: 12%;
+    margin-left: 50%;
     line-height: 30px;
-    font-size: 19px;
+    font-size: 14pt;
 }
 
 .small_info {
     position: absolute;
     color: white;
-    width: 800px;
+    width: 45%;
     font-family: "geist_light";
-    margin-top: 450px;
-    margin-left: 1050px;
-    line-height: 30px;
+    margin-top: 22%;
+    margin-left: 50%;
+    line-height: 25px;
     font-size: 15px;
     font-weight: 200;
 }
 
 .left_info {
     width: 50%;
-    height: 794px;
+    height: 77vh;
     border-bottom: 1px solid white;
     border-right: 1px solid white;
 }
 
 .right_image {
     position: absolute;
-    margin-top: -794px;
-    height: 794px;
+    margin-top: -77vh;
+    height: 77vh;
     width: 50%;
     margin-left: 50%;
     border-bottom: 1px solid white;
     background-image: url("../img/monets.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .big_info_2 {
-    width: 740px;
+    width: 40%;
     position: absolute;
     color: white;
     font-family: "geist";
-    font-size: 23px;
-    margin-left: 100px;
-    margin-top: 200px;
+    font-size: 17pt;
+    margin-left: 5%;
+    margin-top: 8%;
     line-height: 45px;
 }
 
 .small_info_2 {
     position: absolute;
     color: white;
-    width: 740px;
+    width: 40%;
     font-family: "geist_light";
-    margin-top: 450px;
-    margin-left: 100px;
-    line-height: 45px;
+    margin-top: 26%;
+    margin-left: 5%;
+    line-height: 33px;
     font-size: 18px;
     font-weight: 200;
 }
