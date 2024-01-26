@@ -20,14 +20,6 @@ header {
     padding-left: 10%;
 }
 
-footer {
-    border-top: 1px solid white;
-    margin-top: 158.3%;
-    margin-bottom: 3%;
-    padding-top: 30px;
-    padding-left: 18%;
-}
-
 a {
     text-decoration: none;
 }
@@ -216,4 +208,28 @@ a {
     font-size: 13pt;
     color: white;
     font-family: "geist_light";
+}
+
+.grey_line {
+    position: absolute;
+    width: 80%;
+    border-bottom: 1px solid grey;
+    margin-left: -8%;
+    margin-top: 2%;
+
+}
+
+.low_links {
+    border-top: 1px solid white;
+    margin-bottom: 10%;
+    padding-top: 30px;
+    padding-left: 18%;
+    
+}
+
+.footer_label {
+    position: absolute;
+    color: gray;
+    margin-top: 3.5%;
+    margin-left: 26%;
 }
