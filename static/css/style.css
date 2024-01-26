@@ -20,6 +20,14 @@ header {
     padding-left: 10%;
 }
 
+footer {
+    border-top: 1px solid white;
+    margin-top: 158.3%;
+    margin-bottom: 3%;
+    padding-top: 30px;
+    padding-left: 18%;
+}
+
 a {
     text-decoration: none;
 }
@@ -146,5 +154,66 @@ a {
     position: absolute;
     border-bottom: 1px solid white;
     width: 100px;
-    margin-bottom: 500px;
+}
+
+.story_div {
+    text-align: center;
+    position: absolute;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 80%;
+    left: 10%;
+}
+
+.story_div h2 {
+    font-family: "geist_light";
+    color: white;
+    margin-left: -20%;
+    margin-top: 5%;
+}
+
+.ellipse {
+    margin-left: 49.2%;
+    background-color: #356CFB;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.line {
+    width: 2px;
+    height: 200px;
+    background-color: #356CFB;
+    margin-left: 50%;
+}
+
+.story_item {
+    position: absolute;
+}
+
+.story_item img {
+    width: 40px;
+}
+
+.year {
+    position: absolute;
+    font-size: 22pt;
+    color: white;
+    font-family: "geist";
+}
+
+.story_title {
+    position: absolute;
+    font-size: 17pt;
+    color: white;
+    font-family: "geist";
+}
+
+.story_content {
+    text-align: left;
+    width: 35%;
+    position: absolute;
+    font-size: 13pt;
+    color: white;
+    font-family: "geist_light";
 }
