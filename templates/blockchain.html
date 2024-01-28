@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block main %}
+  <div class="blockchain_page">
+    <h1>Технология <span style="color: #356CFB;">блокчейн</span></h1>
+    <div class="blockchain_description">
+        Блокчейн - это технология, которая используется для создания и хранения записей транзакций 
+        в виде блоков, которые связаны друг с другом в цепочку. Каждый блок содержит информацию 
+        о предыдущих транзакциях, что делает блокчейн очень надежным и защищенным от изменений.
+    </div>
+    <div class="blockchain_role_info">
+        <div class="big_info_2">
+            <div class="over_line"></div><br>
+            <span style="color: #356CFB;">Блокчейн</span> обеспечивает <span style="color: #356CFB;">безопасность</span> 
+            и <span style="color: #356CFB;">прозрачность</span> всех транзакций, которые происходят в системе. Благодаря <span style="color: #356CFB;">блокчейну</span>, 
+            все транзакции могут быть <span style="color: #356CFB;">проверены</span> и <span style="color: #356CFB;">подтверждены</span> участниками сети, что делает 
+            систему криптовалюты более <span style="color: #356CFB;">надежным</span> и <span style="color: #356CFB;">защищенным</span> от мошенничества и злоупотреблений.
+        </div>
+    </div>
+    <div class="blockchain_role_img"></div>
+    <div class="blockchain_functions_img"></div>
+    <div class="blockchain_functions">
+        <div class="big_info_2">
+            <div class="over_line"></div><br>
+            <span style="color: #356CFB;">Блокчейн</span> также позволяет <span style="color: #356CFB;">создавать</span> и <span style="color: #356CFB;">хранить</span> криптовалюты в виде уникальных записей, 
+            которые <span style="color: #356CFB;">нельзя</span> копировать или изменять. Это делает криптовалюты <span style="color: #356CFB;">более устойчивыми</span> к 
+            мошенничеству и кражам, чем традиционные валюты.
+        </div>
+    </div>
+    <h2>Пример <span style="color: #356CFB;">блокчейна</span></h2>
+    <img class="blockchain_code_image" src="{{ url_for('static', path='/img/blockchain_code.png') }}" alt="">
+    <div class="blockchain_description" style="margin-top: 10%;">
+      Выше представлен пример простейшего <span style="color: #356CFB;">блокчейна</span>, написанно на языке программирования <span style="color: #356CFB;">Python</span>.
+      В программе реализованы два класса: <span style="color: #356CFB;">блок</span> и <span style="color: #356CFB;">цепь блоков</span>. Цепь блоков состоит и нескольких блоков,
+      которые несут в себе какую - либо <span style="color: #356CFB;">информацию</span>, например, данные о транзакции.
+    </div>
+    <img class="blockchain_res_image" src="{{ url_for('static', path='/img/blockchain_res.png') }}" alt="">
+    <div class="blockchain_description" style="margin-top: 10%;">
+      <span style="color: #356CFB;">Результатом</span> выполнения программы будет <span style="color: #356CFB;">цепь</span> из двух блоков. <span style="color: #356CFB;">Первый</span> блок не несет в себе <span style="color: #356CFB;">никаких 
+      данных</span>, кроме временной метки и собственного хеша. <span style="color: #356CFB;">Второй</span> блок несет в себе <span style="color: #356CFB;">данные</span> о 
+      "транзакции", временную метку, собственный хеш и хеш предыдущего блока.
+    </div>
+    <h2>Основные <span style="color: #356CFB;">принципы</span> работы технологии <span style="color: #356CFB;">блокчейн</span></h2>
+    <div class="list_of_principles">
+      <ul>
+        <li>
+          <div class="list_item"></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+{% endblock %}

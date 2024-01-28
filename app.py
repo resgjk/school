@@ -12,10 +12,22 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 @app.get("/", response_class=HTMLResponse)
 async def main_page(request: Request):
     context = {
-        "title": "Главная страница",
+        "title": "Введение",
         "request": request,
     }
     return templates.TemplateResponse(
         name="inner.html",
+        context=context,
+    )
+
+
+@app.get("/blockchain", response_class=HTMLResponse)
+async def blockchain_page(request: Request):
+    context = {
+        "title": "Блокчейн",
+        "request": request,
+    }
+    return templates.TemplateResponse(
+        name="blockchain.html",
         context=context,
     )
