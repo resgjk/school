@@ -31,3 +31,21 @@ async def blockchain_page(request: Request):
         name="blockchain.html",
         context=context,
     )
+
+
+@app.get("/smart-contracts", response_class=HTMLResponse)
+async def contracts_page(request: Request):
+    context = {
+        "title": "Смарт - контракты",
+        "request": request,
+    }
+    return templates.TemplateResponse(name="contract.html", context=context)
+
+
+@app.get("/mining", response_class=HTMLResponse)
+async def mining_page(request: Request):
+    context = {
+        "title": "Майнинг",
+        "request": request,
+    }
+    return templates.TemplateResponse(name="mining.html", context=context)

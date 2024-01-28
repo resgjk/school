@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block main %}
+  <div class="blockchain_page">
+    <h1>Смарт - <span style="color: #356CFB;">контракт</span></h1>
+    <div class="contract_role_info">
+        <div class="big_info_2">
+            <div class="over_line"></div><br>
+            <span style="color: #356CFB;">Смарт - контракт</span> - это компьютерный код, который автоматически выполняет 
+            <span style="color: #356CFB;">определенные условия</span> и условия договора между двумя <span style="color: #356CFB;">сторонами</span>. Он 
+            используется в <span style="color: #356CFB;">блокчейн - технологии</span> для создания и выполнения договоров <span style="color: #356CFB;">без 
+            участия</span> третьих лиц, таких как юристы или нотариусы.
+        </div>
+    </div>
+    <div class="contract_role_img"></div>
+    <div class="contract_functions_img"></div>
+    <div class="contract_functions">
+        <div class="big_info_2">
+            <div class="over_line"></div><br>
+            <span style="color: #356CFB;">Роль</span> смарт - контрактов в блокчейн - технологии <span style="color: #356CFB;">очень важна</span>. Они позволяют 
+            <span style="color: #356CFB;">создавать</span> и <span style="color: #356CFB;">выполнять</span> договора в автоматическом режиме, что делает процесс 
+            более <span style="color: #356CFB;">прозрачным</span> и <span style="color: #356CFB;">надежным</span>. 
+        </div>
+    </div>
+    <h2>Пример <span style="color: #356CFB;">смарт - контракта</span></h2>
+    <img class="blockchain_code_image" src="{{ url_for('static', path='/img/contract_code.png') }}" alt="">
+    <div class="blockchain_description" style="margin-top: 10%;">
+      Выше представлен <span style="color: #356CFB;">смарт - контракт</span>, написанный на языке программирования <span style="color: #356CFB;">Solidity</span>, для блокчейна <span style="color: #356CFB;">Ethereum</span>. 
+      Данный <span style="color: #356CFB;">контракт</span> позволяет создателю <span style="color: #356CFB;">ERC-20</span> <span style="color: #1c3983;">(</span>так называют официальные протоколы, предназначенные для внесения предложений, призванных улучшить Ethereum<span style="color: #1c3983;">)</span> 
+      <span style="color: #356CFB;">токена</span> <span style="color: #1c3983;">(</span>токен - это форма представления актива или ценности в блокчейне<span style="color: #1c3983;">)</span> 
+      <span style="color: #356CFB;">безопасно продавать</span> свой токен.
+    </div>
+    <h2 style="margin-top: 15%;"><span style="color: #356CFB;">Применение</span> смарт - контрактов в <span style="color: #356CFB;">различных областях</span></h2>
+    <div class="list_of_principles">
+      <ul>
+        <li>
+          <div class="list_item">
+            <div>
+              <img style="width: 80px; margin-left: -31%" class="list_img" src="{{ url_for('static', path='/img/finance.png') }}" alt="">
+              <span class="item_title">Финансы</span>
+            </div>
+            <p class="item_content">
+              Смарт - контракты могут быть использованы для создания и выполнения 
+              финансовых договоров, таких как ипотечные кредиты, страховые полиcы, 
+              инвестиционные контракты и другие. 
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="list_item">
+            <div>
+              <img style="width: 80px; margin-left: -24%" class="list_img" src="{{ url_for('static', path='/img/houses.png') }}" alt="">
+              <span class="item_title">Недвижимость</span>
+            </div>
+            <p class="item_content">
+              Смарт - контракты могут быть использованы для создания и выполнения договоров 
+              о покупке - продаже недвижимости, аренды и других сделок с недвижимостью. 
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="list_item">
+            <div>
+              <img style="width: 90px; margin-left: -9.5%" class="list_img" src="{{ url_for('static', path='/img/automat.png') }}" alt="">
+              <span class="item_title">Автоматизация процессов</span>
+            </div>
+            <p class="item_content">
+              Смарт - контракты могут быть использованы для автоматизации различных 
+              процессов, таких как управление цепочками поставок, автоматизация логистики, 
+              управление персоналом и другие. 
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+{% endblock %}

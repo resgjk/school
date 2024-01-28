@@ -8,6 +8,13 @@
     src: url("../fonts/Geist-Light.otf");
 }
 
+
+ul {
+    list-style-type: none;
+    margin-bottom: 0px;
+  }
+
+
 body {
     background-color: #171B23;
 }
@@ -151,8 +158,10 @@ a {
 }
 
 .story_div {
+    padding-top: 5%;
+    padding-bottom: 7%;
     text-align: center;
-    position: absolute;
+    position: relative;
     border-left: 1px solid white;
     border-right: 1px solid white;
     width: 80%;
@@ -163,7 +172,6 @@ a {
     font-family: "geist_light";
     color: white;
     margin-left: -20%;
-    margin-top: 5%;
 }
 
 .ellipse {
@@ -237,8 +245,10 @@ a {
 }
 
 .blockchain_page {
+    padding-top: 9%;
+    padding-bottom: 6%;
     text-align: center;
-    position: absolute;
+    position: relative;
     border-left: 1px solid white;
     border-right: 1px solid white;
     width: 80%;
@@ -249,7 +259,6 @@ a {
     color: white;
     font-family: "geist";
     font-size: 55px;
-    margin-top: 9%;
 }
 
 .blockchain_description {
@@ -337,9 +346,86 @@ a {
 }
 
 .list_of_principles {
-    align-items: center;
+    list-style-type: none;
 }
 
-.list_of_principles .list_item {
+.list_item {
+    text-align: center;
+    font-family: "geist";
+    margin-top: 6%;
+}
+
+.list_img {
+    margin-left: -28.7%;
+}
+
+.item_title {
+    color: white;
+    font-size: 23pt;
+    margin-left: 1.5%;
+
+}
+
+.item_content {
+    text-align: left;
+    color: lightgray;
+    font-size: 15pt;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+}
+
+.inner_page {
+    position: relative;
+}
+
+.contract_role_img {
+    position: absolute;
+    margin-top: -73vh;
+    height: 73vh;
+    width: 50%;
+    margin-left: 50%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    background-image: url("../img/contract2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.contract_functions_img {
+    height: 73vh;
+    width: 50%;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-right: 1px solid white;
+    background-image: url("../img/contract1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.contract_functions {
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -73vh;
+    height: 73vh;
+    border-bottom: 1px solid white;
+}
+
+.contract_role_info {
+    width: 50%;
+    height: 73vh;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    margin-top: 10%;
+}
+
+.contract_role_info .big_info_2 {
+    margin-top: 6%;
+    text-align: left;
+}
+
+.contract_functions .big_info_2 {
+    margin-top: 11%;
     text-align: left;
 }

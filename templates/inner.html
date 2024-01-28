@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block main %}
+<div class="inner_page">
   <div class="inner_img_div">
     <h1>Термин "<span style="color: #356CFB;">криптовалюта</span>"</h1>
     <div class="big_info">
@@ -31,7 +32,7 @@
     <div class="right_image"></div>
   </div>
   <div class="story_div">
-    <h2>История возникновения криптовалют</h2>
+    <h2><span style="color: #356CFB;">История</span> возникновения криптовалют</h2>
 
     <div class="ellipse" style="margin-top: 10%;"></div>
     <div class="year" style="margin-left: 38%; margin-top: -2.5%;">2009</div>
@@ -126,34 +127,11 @@
       <img src="{{ url_for('static', path='/img/story_item_8.png') }}" alt="">
     </div>
     <div class="story_title" style="margin-left: 18.5%; margin-top: -7.5%;">Multichain</div>
-    <div class="story_content" style="margin-left: 13%; margin-top: -2%; position: relative; margin-bottom: 7%;">
+    <div class="story_content" style="margin-left: 13%; margin-top: -2%; position: relative; margin-bottom: 0%;">
       Multichain — это технология блокчейна с открытым исходным кодом, которая позволяет 
       приложениям и протоколам подключаться к нескольким блокчейнам, делая их совместимыми с 
       данными из обеих цепей.
     </div>
   </div>
-  <div class="low_links" style="margin-top: 158.3%;">
-    <ul class="nav">
-      <li class="navbar-item">
-        <a class="navbar-link" aria-current="page" href="/">Введение</a>
-      </li>
-      <li class="navbar-item">
-        <a class="navbar-link" aria-current="page" href="/blockchain">Блокчейн</a>
-      </li>
-      <li class="navbar-item">
-        <a class="navbar-link" aria-current="page" href="/smart-contracts">Смарт - контракты</a>
-      </li>
-      <li class="navbar-item">
-        <a class="navbar-link" aria-current="page" href="/mining">Майнинг</a>
-      </li>
-      <li class="navbar-item">
-        <a class="navbar-link" aria-current="page" href="/regulation">Регулирование</a>
-      </li>
-      <li class="navbar-item">
-        <a class="navbar-link" aria-current="page" href="/influence">Влияние на экономику</a>
-      </li>
-    </ul>
-    <div class="grey_line"></div>
-    <p class="footer_label">Ⓒ 2024 Artemy Plokhikh</p>
-  </div>
+</div>
 {% endblock %}

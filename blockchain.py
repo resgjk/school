@@ -46,8 +46,7 @@ class Blockchain:
         self.chain.append(block)
 
         self.difficulty += (-1, 1)[
-            int(time()) - int(self.getLastBlock()
-                              .timestamp) < self.blockTime
+            int(time()) - int(self.getLastBlock().timestamp) < self.blockTime
         ]
 
     # Алгоритм доказательства выполнения работы
@@ -80,13 +79,12 @@ class Blockchain:
         )
 
 
-JeChain = Blockchain()
+chain = Blockchain()
 
 # Добавим новый блок
-JeChain.addBlock(
-    Block(str(int(time())),
-          ({"from": "John", "to": "Bob", "amount": 100}))
+chain.addBlock(
+    Block(str(int(time())), ({"from": "Sasha", "to": "Vanya", "amount": 100}))
 )
 
 # Вывод обновлённого блокчейна
-print(JeChain)
+print(chain)
