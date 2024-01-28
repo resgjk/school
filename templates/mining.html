@@ -1,76 +1,103 @@
 {% extends "base.html" %}
 {% block main %}
-  <div class="blockchain_page">
+  <div class="blockchain_page" style="padding-bottom: 0%;">
     <h1>Майнинг <span style="color: #356CFB;">криптовалют</span></h1>
-    <div class="contract_role_info">
+    <div class="mining_role_info">
         <div class="big_info_2">
             <div class="over_line"></div><br>
-            <span style="color: #356CFB;">Смарт - контракт</span> - это компьютерный код, который автоматически выполняет 
-            <span style="color: #356CFB;">определенные условия</span> и условия договора между двумя <span style="color: #356CFB;">сторонами</span>. Он 
-            используется в <span style="color: #356CFB;">блокчейн - технологии</span> для создания и выполнения договоров <span style="color: #356CFB;">без 
-            участия</span> третьих лиц, таких как юристы или нотариусы.
+            <span style="color: #356CFB;">Майнинг</span> - это процесс <span style="color: #356CFB;">создания</span> новых блоков в блокчейне и <span style="color: #356CFB;">получения</span> 
+            криптовалюты в качестве вознаграждения. В процессе майнинга <span style="color: #356CFB;">компьютеры</span>, 
+            которые участвуют в процессе, <span style="color: #356CFB;">решают</span> сложные математические <span style="color: #356CFB;">задачи</span>, чтобы 
+            <span style="color: #356CFB;">создать</span> новый блок и <span style="color: #356CFB;">добавить</span> его в блокчейн.
         </div>
     </div>
-    <div class="contract_role_img"></div>
-    <div class="contract_functions_img"></div>
-    <div class="contract_functions">
+    <div class="mining_role_img"></div>
+    <div class="mining_functions_img"></div>
+    <div class="mining_functions">
         <div class="big_info_2">
             <div class="over_line"></div><br>
-            <span style="color: #356CFB;">Роль</span> смарт - контрактов в блокчейн - технологии <span style="color: #356CFB;">очень важна</span>. Они позволяют 
-            <span style="color: #356CFB;">создавать</span> и <span style="color: #356CFB;">выполнять</span> договора в автоматическом режиме, что делает процесс 
-            более <span style="color: #356CFB;">прозрачным</span> и <span style="color: #356CFB;">надежным</span>. 
+            <span style="color: #356CFB;">Майнинг</span> является важным процессом для криптовалют, так как он обеспечивает 
+            <span style="color: #356CFB;">безопасность</span> и <span style="color: #356CFB;">надежность</span> блокчейн-сети. Когда новый блок создается и добавляется 
+            в блокчейн, это <span style="color: #356CFB;">подтверждает</span> все транзакции, которые <span style="color: #356CFB;">были совершены</span> в этом блоке. 
+            Это делает блокчейн более <span style="color: #356CFB;">надежным</span> и <span style="color: #356CFB;">защищенным</span> от атак, таких как двойное 
+            расходование.
         </div>
     </div>
-    <h2>Пример <span style="color: #356CFB;">смарт - контракта</span></h2>
-    <img class="blockchain_code_image" src="{{ url_for('static', path='/img/contract_code.png') }}" alt="">
-    <div class="blockchain_description" style="margin-top: 10%;">
-      Выше представлен <span style="color: #356CFB;">смарт - контракт</span>, написанный на языке программирования <span style="color: #356CFB;">Solidity</span>, для блокчейна <span style="color: #356CFB;">Ethereum</span>. 
-      Данный <span style="color: #356CFB;">контракт</span> позволяет создателю <span style="color: #356CFB;">ERC-20</span> <span style="color: #1c3983;">(</span>так называют официальные протоколы, предназначенные для внесения предложений, призванных улучшить Ethereum<span style="color: #1c3983;">)</span> 
-      <span style="color: #356CFB;">токена</span> <span style="color: #1c3983;">(</span>токен - это форма представления актива или ценности в блокчейне<span style="color: #1c3983;">)</span> 
-      <span style="color: #356CFB;">безопасно продавать</span> свой токен.
-    </div>
-    <h2 style="margin-top: 15%;"><span style="color: #356CFB;">Применение</span> смарт - контрактов в <span style="color: #356CFB;">различных областях</span></h2>
+    <h2 style="margin-top: 15%;"> Способы <span style="color: #356CFB;">майнинга</span></h2>
     <div class="list_of_principles">
       <ul>
         <li>
           <div class="list_item">
             <div>
-              <img style="width: 80px; margin-left: -31%" class="list_img" src="{{ url_for('static', path='/img/finance.png') }}" alt="">
-              <span class="item_title">Финансы</span>
+              <img style="width: 80px; margin-left: -36.5%" class="list_img" src="{{ url_for('static', path='/img/cpu.png') }}" alt="">
+              <span class="item_title">CPU</span>
             </div>
             <p class="item_content">
-              Смарт - контракты могут быть использованы для создания и выполнения 
-              финансовых договоров, таких как ипотечные кредиты, страховые полиcы, 
-              инвестиционные контракты и другие. 
+                Этот способ майнинга использует центральный процессор компьютера для 
+                решения сложных математических задач и создания новых блоков в блокчейне. 
+                Этот способ майнинга был популярен в начале криптовалюты, но сейчас он стал 
+                менее эффективным из-за увеличения сложности задач и конкуренции с более 
+                мощными системами майнинга.
             </p>
           </div>
         </li>
         <li>
           <div class="list_item">
             <div>
-              <img style="width: 80px; margin-left: -24%" class="list_img" src="{{ url_for('static', path='/img/houses.png') }}" alt="">
-              <span class="item_title">Недвижимость</span>
+              <img style="width: 80px; margin-left: -37.5%" class="list_img" src="{{ url_for('static', path='/img/gpu.png') }}" alt="">
+              <span class="item_title">GPU</span>
             </div>
             <p class="item_content">
-              Смарт - контракты могут быть использованы для создания и выполнения договоров 
-              о покупке - продаже недвижимости, аренды и других сделок с недвижимостью. 
+                Этот способ майнинга использует графические процессоры компьютера для 
+                решения сложных математических задач и создания новых блоков в блокчейне. 
+                Этот способ майнинга более эффективен, чем CPU майнинг, но он также стал 
+                менее популярным из-за увеличения сложности задач и конкуренции с более 
+                мощными системами майнинга.
             </p>
           </div>
         </li>
         <li>
           <div class="list_item">
             <div>
-              <img style="width: 90px; margin-left: -9.5%" class="list_img" src="{{ url_for('static', path='/img/automat.png') }}" alt="">
-              <span class="item_title">Автоматизация процессов</span>
+              <img style="width: 90px; margin-left: -36%" class="list_img" src="{{ url_for('static', path='/img/asic.png') }}" alt="">
+              <span class="item_title">ASIC</span>
             </div>
             <p class="item_content">
-              Смарт - контракты могут быть использованы для автоматизации различных 
-              процессов, таких как управление цепочками поставок, автоматизация логистики, 
-              управление персоналом и другие. 
+                Этот способ майнинга использует специализированные аппаратные решения, 
+                такие как ASIC (Application-Specific Integrated Circuit), для решения 
+                сложных математических задач и создания новых блоков в блокчейне. Этот 
+                способ майнинга является наиболее эффективным и популярным способом 
+                майнинга, так как ASIC-устройства разработаны специально для решения 
+                задач майнинга и имеют высокую производительность.
             </p>
           </div>
         </li>
+        <li>
+            <div class="list_item">
+              <div>
+                <img style="width: 65px; margin-left: -13%" class="list_img" src="{{ url_for('static', path='/img/group.png') }}" alt="">
+                <span class="item_title">Объединенный майнинг</span>
+              </div>
+              <p class="item_content">
+                Этот способ майнинга использует объединенные усилия нескольких майнеров для 
+                решения сложных математических задач и создания новых блоков в блокчейне. 
+                Майнеры объединяют свои ресурсы и делят полученные криптовалюты между собой 
+                в соответствии с их вкладом в процесс майнинга.
+              </p>
+            </div>
+          </li>
       </ul>
     </div>
+    <div class="mining_prirode_info">
+        <div class="big_info_2">
+            <div class="over_line"></div><br>
+            <span style="color: #356CFB;">Майнинг</span> требует большого количества <span style="color: #356CFB;">вычислительных мощностей</span>, чтобы <span style="color: #356CFB;">решать</span> 
+            сложные математические задачи и <span style="color: #356CFB;">создавать</span> новые блоки в блокчейне. 
+            Это приводит к увеличению <span style="color: #356CFB;">потребления электроэнергии</span>, которая используется 
+            <span style="color: #356CFB;">для питания оборудования</span> майнинга, что может привести к <span style="color: #356CFB;">увеличению</span> выбросов 
+            парниковых газов и <span style="color: #356CFB;">ухудшению</span> экологической ситуации.
+        </div>
+    </div>
+    <div class="mining_prirode_img"></div>
   </div>
 {% endblock %}
