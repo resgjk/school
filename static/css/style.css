@@ -505,3 +505,70 @@ a {
     margin-top: 3%;
     text-align: left;
 }
+
+.influence_role_img {
+    position: absolute;
+    margin-top: -72vh;
+    height: 72vh;
+    width: 50%;
+    margin-left: 50%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    background-image: url("../img/economy1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.influence_third_img {
+    position: absolute;
+    margin-top: -73vh;
+    height: 73vh;
+    width: 50%;
+    margin-left: 50%;
+    background-image: url("../img/economy3.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.influence_functions_img {
+    height: 73vh;
+    width: 50%;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-right: 1px solid white;
+    background-image: url("../img/economy2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.influence_functions {
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -73vh;
+    height: 73vh;
+    border-bottom: 1px solid white;
+}
+
+.influence_role_info {
+    width: 50%;
+    height: 72vh;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    margin-top: 10%;
+}
+
+.influence_role_info .big_info_2 {
+    margin-top: 3%;
+    text-align: left;
+}
+
+.influence_functions .big_info_2 {
+    margin-top: 3%;
+    text-align: left;
+}
+
+.influence_prirode_info .big_info_2 {
+    margin-top: 3%;
+    text-align: left;
+}

@@ -49,3 +49,21 @@ async def mining_page(request: Request):
         "request": request,
     }
     return templates.TemplateResponse(name="mining.html", context=context)
+
+
+@app.get("/regulation", response_class=HTMLResponse)
+async def mining_page(request: Request):
+    context = {
+        "title": "Регулирование",
+        "request": request,
+    }
+    return templates.TemplateResponse(name="regulation.html", context=context)
+
+
+@app.get("/influence", response_class=HTMLResponse)
+async def mining_page(request: Request):
+    context = {
+        "title": "Влияние на экономику",
+        "request": request,
+    }
+    return templates.TemplateResponse(name="influence.html", context=context)

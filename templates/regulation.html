@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+{% block main %}
+  <div class="blockchain_page" style="padding-bottom: 2%;">
+    <h1 style="border-bottom: 1px solid white; padding-bottom: 12%">Регулирование <span style="color: #356CFB;">криптовалют</span></h1>
+    <h2 style="margin-top: 15%;">Регулирование <span style="color: #356CFB;">криптовалют</span> в различных странах мира</h2>
+    <div class="list_of_principles" style="border-bottom: 1px solid white; padding-bottom: 12%;">
+      <ul>
+        <li>
+          <div class="list_item">
+            <div>
+              <img style="width: 90px; margin-left: -35.5%" class="list_img" src="{{ url_for('static', path='/img/usa.png') }}" alt="">
+              <span class="item_title">США</span>
+            </div>
+            <p class="item_content">
+                В США регулирование криптовалют осуществляется на федеральном уровне 
+                и на уровне отдельных штатов. Федеральное регулирование осуществляется 
+                через такие органы, как Комиссия по ценным бумагам и биржам (SEC), 
+                Комиссия по товарным фьючерсам (CFTC) и другие. В некоторых штатах США 
+                также приняты свои законы о криптовалютах.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="list_item">
+            <div>
+              <img style="width: 80px; margin-left: -34.5%" class="list_img" src="{{ url_for('static', path='/img/china.png') }}" alt="">
+              <span class="item_title">Китай</span>
+            </div>
+            <p class="item_content">
+                В Китае криптовалюты запрещены, и любая деятельность, связанная с 
+                криптовалютами, запрещена. Китайское правительство также запретило 
+                все операции с криптовалютами, включая их обмен на национальную валюту.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="list_item">
+            <div>
+              <img style="width: 90px; margin-left: -32%" class="list_img" src="{{ url_for('static', path='/img/japan.png') }}" alt="">
+              <span class="item_title">Япония</span>
+            </div>
+            <p class="item_content">
+                В Японии криптовалюты регулируются как финансовые инструменты, и 
+                все компании, которые работают с криптовалютами, должны получить 
+                лицензию от Японского агентства финансовой службы.
+            </p>
+          </div>
+        </li>
+        <li>
+            <div class="list_item">
+              <div>
+                <img style="width: 90px; margin-left: -32%" class="list_img" src="{{ url_for('static', path='/img/russia.png') }}" alt="">
+                <span class="item_title">Россия</span>
+              </div>
+              <p class="item_content">
+                В России криптовалюты не являются законным платежным средством, но 
+                их использование не запрещено. Российские компании, которые работают 
+                с криптовалютами, должны соблюдать определенные правила и нормы, 
+                такие как регистрация и отчетность.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="list_item">
+              <div>
+                <img style="width: 90px; margin-left: -32%;" class="list_img" src="{{ url_for('static', path='/img/euro.png') }}" alt="">
+                <span class="item_title">Европа</span>
+              </div>
+              <p class="item_content">
+                В Европе регулирование криптовалют осуществляется на уровне Европейского 
+                союза и отдельных стран-членов. Европейский союз принял несколько 
+                директив, которые регулируют криптовалюты, включая директиву PSD2, 
+                которая регулирует платежные услуги и включает криптовалюты.
+              </p>
+            </div>
+          </li>
+      </ul>
+    </div>
+    <h2 style="margin-top: 15%;"><span style="color: #356CFB;">Плюсы</span> и <span style="color: #356CFB;">минусы</span> регулирования криптовалют</h2>
+    <div class="list_of_principles">
+      <ul>
+        <li>
+          <div class="list_item">
+            <div>
+              <img style="width: 70px; margin-left: -17%" class="list_img" src="{{ url_for('static', path='/img/plus.png') }}" alt="">
+              <span class="item_title">Защита потребителей</span>
+            </div>
+            <p class="item_content">
+                Регулирование криптовалют может помочь защитить потребителей от 
+                мошенничества и других злоупотреблений.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="list_item">
+            <div>
+              <img style="width: 70px; margin-left: -13%;" class="list_img" src="{{ url_for('static', path='/img/minus.png') }}" alt="">
+              <span class="item_title">Угроза децентрализации</span>
+            </div>
+            <p class="item_content">
+                Регулирование криптовалют может угрожать их децентрализованной 
+                природе и ограничивать их потенциал.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="list_item">
+            <div>
+              <img style="width: 70px; margin-left: -12%" class="list_img" src="{{ url_for('static', path='/img/plus.png') }}" alt="">
+              <span class="item_title">Уменьшение преступности</span>
+            </div>
+            <p class="item_content">
+                Регулирование криптовалют может помочь уменьшить их использование в 
+                преступных целях, таких как отмывание денег и финансирование терроризма.
+            </p>
+          </div>
+        </li>
+        <li>
+            <div class="list_item">
+              <div>
+                <img style="width: 70px; margin-left: -20%" class="list_img" src="{{ url_for('static', path='/img/minus.png') }}" alt="">
+                <span class="item_title">Угроза инновациям</span>
+              </div>
+              <p class="item_content">
+                Регулирование криптовалют может ограничивать инновации и препятствовать 
+                развитию новых технологий.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="list_item">
+              <div>
+                <img style="width: 70px; margin-left: -19%" class="list_img" src="{{ url_for('static', path='/img/plus.png') }}" alt="">
+                <span class="item_title">Улучшение доверия</span>
+              </div>
+              <p class="item_content">
+                Регулирование криптовалют может помочь улучшить доверие к ним и 
+                сделать их более приемлемыми для широкой публики.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="list_item">
+              <div>
+                <img style="width: 70px; margin-left: -24%" class="list_img" src="{{ url_for('static', path='/img/minus.png') }}" alt="">
+                <span class="item_title">Угроза свободе</span>
+              </div>
+              <p class="item_content">
+                Регулирование криптовалют может ограничивать свободу их 
+                использования и препятствовать свободному обмену.
+              </p>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </div>
+{% endblock %}
